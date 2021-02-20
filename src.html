@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>School Managment System</title>
+</head>
+
+<body>
+    <div class="container">
+        <form action="/action_page.php"><br>
+            <!-- student name -->
+            <div class="from-control">
+                <label for="name">Student Name</label>
+                <input type="text" id="name" placeholder="Jack" />
+            </div><br>
+            <!-- student name -->
+            <!-- student id -->
+            <div class="from-control">
+                <label for="idNumber">Student ID</label>
+                <input type="number" id="idNumber" placeholder="11924747" />
+            </div><br>
+            <!-- student id -->
+
+            <!-- student gdpa -->
+            <div class="from-control">
+                <label for="gdpa">Student Gdpa</label>
+                <input type="number" id="gdpa" placeholder="3.50" />
+            </div><br>
+            <!-- student gdpa -->
+            <button id="submit" type="submit"> Add new student</button>
+            <button id="show" type="show" > Show student list</button>
+            <button id="delete" type="delete" style="float: right;"> Delete student</button>
+            <button id="update" type="update"> Update student</button>
+
+
+            <br><br>
+            <div id="Show-Students-in-lists"></div>
+
+        </form>
+        
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
